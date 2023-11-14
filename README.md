@@ -1,16 +1,17 @@
-### Hi there 👋
+# Hello there 👋
 
-<!--
-**Arslanex/Arslanex** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+```python
+class SoftwareEngineer:
 
-Here are some ideas to get you started:
+    def __init__(self):
+        self.name = "Enes Arslna"
+        self.role = "Software Engineer"
+        self.language_spoken = ["TR", "EN"]
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+    def hi(self):
+        print("Thanks for dropping by, hope you find some of my work interesting.")
+
+
+me = SoftwareEngineer()
+me.hi()
+```
